@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>sxm type scale</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,900,700' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title> sxm type scale </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,900,700" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
     <style>
-    body {
+    body,
+    html {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         font-size: 16px;
@@ -21,6 +22,10 @@
     h2 {
         font-size: 28px;
         /* or is this 34 px */
+    }
+    
+    .option2 h2 {
+        font-size: 34px;
     }
     
     h3 {
@@ -38,32 +43,58 @@
     h6 {
         font-size: 14px;
     }
-    /* proposed scale*/
+    /* perfect-fourth*/
     
-    .proposed-scale h1 {
+    .perfect-fourth h1 {
         font-size: 3.157em;
     }
     
-    .proposed-scale h2 {
+    .perfect-fourth h2 {
         font-size: 2.369em;
     }
     
-    .proposed-scale h3 {
+    .perfect-fourth h3 {
         font-size: 1.777em;
     }
     
-    .proposed-scale h4 {
+    .perfect-fourth h4 {
         font-size: 1.333em;
     }
     
-    .proposed-scale h5 {
+    .perfect-fourth h5 {
         font-size: 1em;
     }
     
-    .proposed-scale h6 {
+    .perfect-fourth h6 {
         font-size: .85em
     }
-    /* end proposed scale */
+    /* end perfect fourth*/
+    /* custom 1.3 */
+    
+    .custom13 h1 {
+        font-size: 2.945em;
+    }
+    
+    .custom13 h2 {
+        font-size: 2.248em;
+    }
+    
+    .custom13 h3 {
+        font-size: 1.716em;
+    }
+    
+    .custom13 h4 {
+        font-size: 1.31em;
+    }
+    
+    .custom13 h5 {
+        font-size: 1em;
+    }
+    
+    .custom13 h6 {
+        font-size: .769em;
+    }
+    /* end custom 1.3 */
     
     .text-thin {
         font-weight: 100;
@@ -99,86 +130,50 @@
 
 <body>
     <div class="container-fluid current-scale">
-        <h4 class="scale-heading text-center text-uppercase text-muted">Current Guidelines</h4>
         <div class="row">
-            <div class="col-sm-4 desktopScale">
-                <p class="text-muted device-label">Desktop</p>
-                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+            <div class="col-sm-6 col-sm-offset-1">
+                <div class="option1">
+                    <p class="text-muted device-label"> Current SXM - Option 1 </p>
+                    <h1 class="text-thin"> The quick brown fox jumps over the lazy dog (48) </h1>
+                    <h2 class="text-medium"> The quick brown fox jumps over the lazy dog (28) </h2>
+                    <h3 class="text-bold"> The quick brown fox jumps over the lazy dog (24) </h3>
+                    <h4 class=""> The quick brown fox jumps over the lazy dog (20) </h4>
+                    <h5 class=""> The quick brown fox jumps over the lazy dog (16) </h5>
+                    <h6 class=""> The quick brown fox jumps over the lazy dog (14) </h6>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+                <div class="option2">
+                    <p class="text-muted device-label"> Current SXM - Option 2 </p>
+                    <h1 class="text-thin"> The quick brown fox jumps over the lazy dog (48) </h1>
+                    <h2 class="text-medium"> The quick brown fox jumps over the lazy dog (34) </h2>
+                    <h3 class="text-bold"> The quick brown fox jumps over the lazy dog (24) </h3>
+                    <h4 class=""> The quick brown fox jumps over the lazy dog (20) </h4>
+                    <h5 class=""> The quick brown fox jumps over the lazy dog (16) </h5>
+                    <h6 class=""> The quick brown fox jumps over the lazy dog (14) </h6>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+                <div class="custom13">
+                    <p class="text-muted device-label"> Proposed - Custom (1.31) </p>
+                    <h1 class="text-thin"> The quick brown fox jumps over the lazy dog (47) </h1>
+                    <h2 class="text-medium"> The quick brown fox jumps over the lazy dog (36) </h2>
+                    <h3 class="text-bold"> The quick brown fox jumps over the lazy dog (27) </h3>
+                    <h4 class=""> The quick brown fox jumps over the lazy dog (21) </h4>
+                    <h5 class=""> The quick brown fox jumps over the lazy dog (16) </h5>
+                    <h6 class=""> The quick brown fox jumps over the lazy dog (12) </h6>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
+                <div class="perfect-fourth">
+                    <p class="text-muted device-label"> Proposed - Perfect Fourth (1.333) </p>
+                    <h1 class="text-thin"> The quick brown fox jumps over lazy dog (50) </h1>
+                    <h2 class="text-medium"> The quick brown fox jumps over the lazy dog (38) </h2>
+                    <h3 class="text-bold"> The quick brown fox jumps over the lazy dog (28) </h3>
+                    <h4 class=""> The quick brown fox jumps over the lazy dog (21) </h4>
+                    <h5 class=""> The quick brown fox jumps over the lazy dog (16) </h5>
+                    <h6 class=""> The quick brown fox jumps over the lazy dog (12) </h6>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                </div>
             </div>
-            <div class="col-sm-4 tabletScale">
-                <p class="text-muted device-label">Tablet
-                    <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                    <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                    <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                    <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                    <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                    <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-            </div>
-            <div class="col-sm-4 mobileScale">
-                <p class="text-muted device-label">Mobile</p>
-                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container-fluid proposed-scale">
-        <h4 class="scale-heading text-center text-uppercase text-muted">Proposed Guidelines</h4>
-        <div class="row">
-            <div class="col-sm-4 desktopScale">
-                <p class="text-muted device-label">Desktop</p>
-                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
-            <div class="col-sm-4 tabletScale">
-                <p class="text-muted device-label">Tablet
-                    <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                    <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                    <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                    <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                    <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                    <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-            </div>
-            <div class="col-sm-4 mobileScale">
-                <p class="text-muted device-label">Mobile</p>
-                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
-                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
-                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
-                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
-                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+            <div class="col-sm-4 col-sm-offset-1 desktop-scale option1"> </div>
         </div>
     </div>
 </body>
