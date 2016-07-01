@@ -12,6 +12,7 @@
         font-weight: 300;
         font-size: 16px;
     }
+    /* current scale */
     
     h1 {
         font-size: 48px;
@@ -19,6 +20,7 @@
     
     h2 {
         font-size: 28px;
+        /* or is this 34 px */
     }
     
     h3 {
@@ -36,6 +38,32 @@
     h6 {
         font-size: 14px;
     }
+    /* proposed scale*/
+    
+    .proposed-scale h1 {
+        font-size: 3.157em;
+    }
+    
+    .proposed-scale h2 {
+        font-size: 2.369em;
+    }
+    
+    .proposed-scale h3 {
+        font-size: 1.777em;
+    }
+    
+    .proposed-scale h4 {
+        font-size: 1.333em;
+    }
+    
+    .proposed-scale h5 {
+        font-size: 1em;
+    }
+    
+    .proposed-scale h6 {
+        font-size: .85em
+    }
+    /* end proposed scale */
     
     .text-thin {
         font-weight: 100;
@@ -70,12 +98,13 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid current-scale">
+        <h4 class="scale-heading text-center text-uppercase text-muted">Current Guidelines</h4>
         <div class="row">
             <div class="col-sm-4 desktopScale">
                 <p class="text-muted device-label">Desktop</p>
                 <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="">The quick brown fox jumps over the lazy dog</h2>
+                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
                 <h3 class="">The quick brown fox jumps over the lazy dog</h3>
                 <h4 class="">The quick brown fox jumps over the lazy dog</h4>
                 <h5 class="">The quick brown fox jumps over the lazy dog</h5>
@@ -87,7 +116,7 @@
             <div class="col-sm-4 tabletScale">
                 <p class="text-muted device-label">Tablet
                     <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                    <h2 class="">The quick brown fox jumps over the lazy dog</h2>
+                    <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
                     <h3 class="">The quick brown fox jumps over the lazy dog</h3>
                     <h4 class="">The quick brown fox jumps over the lazy dog</h4>
                     <h5 class="">The quick brown fox jumps over the lazy dog</h5>
@@ -99,7 +128,49 @@
             <div class="col-sm-4 mobileScale">
                 <p class="text-muted device-label">Mobile</p>
                 <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
-                <h2 class="">The quick brown fox jumps over the lazy dog</h2>
+                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
+                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
+                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
+                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
+                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid proposed-scale">
+        <h4 class="scale-heading text-center text-uppercase text-muted">Proposed Guidelines</h4>
+        <div class="row">
+            <div class="col-sm-4 desktopScale">
+                <p class="text-muted device-label">Desktop</p>
+                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
+                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
+                <h3 class="">The quick brown fox jumps over the lazy dog</h3>
+                <h4 class="">The quick brown fox jumps over the lazy dog</h4>
+                <h5 class="">The quick brown fox jumps over the lazy dog</h5>
+                <h6 class="">The quick brown fox jumps over the lazy dog</h6>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="col-sm-4 tabletScale">
+                <p class="text-muted device-label">Tablet
+                    <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
+                    <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
+                    <h3 class="">The quick brown fox jumps over the lazy dog</h3>
+                    <h4 class="">The quick brown fox jumps over the lazy dog</h4>
+                    <h5 class="">The quick brown fox jumps over the lazy dog</h5>
+                    <h6 class="">The quick brown fox jumps over the lazy dog</h6>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+            </div>
+            <div class="col-sm-4 mobileScale">
+                <p class="text-muted device-label">Mobile</p>
+                <h1 class="text-thin">The quick brown fox jumps over the lazy dog</h1>
+                <h2 class="text-medium">The quick brown fox jumps over the lazy dog</h2>
                 <h3 class="">The quick brown fox jumps over the lazy dog</h3>
                 <h4 class="">The quick brown fox jumps over the lazy dog</h4>
                 <h5 class="">The quick brown fox jumps over the lazy dog</h5>
