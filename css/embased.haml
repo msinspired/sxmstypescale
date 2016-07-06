@@ -1,60 +1,11 @@
-/* current scale */
+/* em based -------------
 
-h1 {
-    font-size: 48px;
-}
-h2 {
-    font-size: 28px;
-    /* or is this 34 px */
-}
-.option2 h2 {
-    font-size: 34px;
-}
-h3 {
-    font-size: 24px;
-}
-h4 {
-    font-size: 20px;
-}
-h5 {
-    font-size: 16px;
-}
-h6 {
-    font-size: 14px;
-}
-
-/* perfect-fourth*/
-
-.perfect-fourth h1 {
-    font-size: 3.157em;
-}
-.perfect-fourth h2 {
-    font-size: 2.369em;
-}
-.perfect-fourth h3 {
-    font-size: 1.777em;
-}
-.perfect-fourth h4 {
-    font-size: 1.333em;
-}
-.perfect-fourth h5 {
-    font-size: 1em;
-}
-.perfect-fourth h6 {
-    font-size: .85em
-}
-
-/* end perfect fourth*/
-
-
-/* custom 1.3 */
-
-$custom_font_h1: 38px; // 2.945 / 47
-$custom_font_h2: 29px; // 2.248 / 36
-$custom_font_h3: 22px; // 1.716 / 27
-$custom_font_h4: 18px; // 1.31 (max 88%, not 80% scale) / 21
-$custom_font_h5: 16px; // 1 / 16
-$custom_font_h6: 12px; // .769 / 1
+$custom_font_h1: 2.356em; // 2.945 
+$custom_font_h2: 1.798em; // 2.248
+$custom_font_h3: 1.373em; // 1.716
+$custom_font_h4: 1.153em; // 1.31 (max 88%, not 80% scale)
+$custom_font_h5: 1em; // 1
+$custom_font_h6: .769em; // .769
 .custom13 h1 {
     font-size: $custom_font_h1;
 }
@@ -101,5 +52,4 @@ $custom_font_h6: 12px; // .769 / 1
         font-size: #{1.136 * $custom_font_h4};
     }
 }
-
-/* end custom 1.3 */
+---- end em based */
