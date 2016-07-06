@@ -2,15 +2,25 @@ body,
 html {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1em; }
+  font-size: 16px; }
 
 /* ---- */
 .scale-label {
   margin-top: 30px;
   border-bottom: 1px solid #ccd; }
 
+.sample-section {
+  margin-bottom: 50px; }
+
 div.custom13 {
   margin-bottom: 50px; }
+
+.lead {
+  /* overwriting bootstrap 21px */
+  font-size: 20px; }
+
+.disclaimer {
+  font-size: 14px; }
 
 .text-thin {
   font-weight: 100; }
