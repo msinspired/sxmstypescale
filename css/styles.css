@@ -1,7 +1,16 @@
-body, html {
+body,
+html {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1em; }
+
+/* ---- */
+.scale-label {
+  margin-top: 30px;
+  border-bottom: 1px solid #ccd; }
+
+div.custom13 {
+  margin-bottom: 50px; }
 
 .text-thin {
   font-weight: 100; }
@@ -20,11 +29,6 @@ body, html {
 
 .text-ultrabold {
   font-weight: 900; }
-
-/* ---- */
-.device-label {
-  margin-top: 30px;
-  border-bottom: 1px solid #ccd; }
 
 /* current scale */
 h1 {
