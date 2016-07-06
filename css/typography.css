@@ -46,25 +46,43 @@ h6 {
 .custom13 h1 {
   font-size: 2.356em; }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .custom13 h1 {
-    font-size: 2.61516em; } }
-@media (min-width: 992px) {
-  .custom13 h1 {
-    font-size: 2.945em; } }
 .custom13 h2 {
-  font-size: 2.248em; }
+  font-size: 1.798em; }
 
 .custom13 h3 {
-  font-size: 1.716em; }
+  font-size: 1.373em; }
 
 .custom13 h4 {
-  font-size: 1.31em; }
+  font-size: 1.153em; }
 
 .custom13 h5 {
   font-size: 1em; }
 
 .custom13 h6 {
-  font-size: .769em; }
+  font-size: 0.769em; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom13 h1 {
+    font-size: 2.61516em; }
+
+  .custom13 h2 {
+    font-size: 1.99578em; }
+
+  .custom13 h3 {
+    font-size: 1.52403em; }
+
+  .custom13 h4 {
+    font-size: 1.309808em; } }
+@media (min-width: 992px) {
+  .custom13 h1 {
+    font-size: 2.945em; }
+
+  .custom13 h2 {
+    font-size: 1.71625em; }
+
+  .custom13 h3 {
+    font-size: 1.71625em; }
+
+  .custom13 h4 {
+    font-size: 1.41819em; } }
 /* end custom 1.3 */
