@@ -1,6 +1,7 @@
 /* current scale */
 h1 {
-  font-size: 48px; }
+  font-size: 48px;
+  letter-spacing: -1px; }
 
 h2 {
   font-size: 28px;
