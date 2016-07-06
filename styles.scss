@@ -4,18 +4,17 @@ body {
     font-size: 14px;
 }
 
-.lead {
-    /* overwriting bootstrap 21px */
-    font-size: 17px;
-}
-
 @media (min-width: 768px) {
     body {
         font-size: 16px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) {
     .lead {
-        /* overwriting bootstrap 21px */
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
