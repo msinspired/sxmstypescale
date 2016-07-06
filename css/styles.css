@@ -1,3 +1,32 @@
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em; }
+
+.text-thin {
+  font-weight: 100; }
+
+.text-light {
+  font-weight: 300; }
+
+.text-normal {
+  font-weight: 400; }
+
+.text-medium {
+  font-weight: 500; }
+
+.text-bold {
+  font-weight: 700; }
+
+.text-ultrabold {
+  font-weight: 900; }
+
+/* ---- */
+.device-label {
+  margin-top: 30px;
+  border-bottom: 1px solid #ccd; }
+
 /* current scale */
 h1 {
   font-size: 48px;
@@ -44,7 +73,7 @@ h6 {
 /* end perfect fourth*/
 /* custom 1.3 */
 .custom13 h1 {
-  font-size: 38px; }
+  font-size: 39px; }
 
 .custom13 h2 {
   font-size: 28px; }
@@ -53,7 +82,7 @@ h6 {
   font-size: 22px; }
 
 .custom13 h4 {
-  font-size: 18px; }
+  font-size: 19px; }
 
 .custom13 h5 {
   font-size: 16px; }
@@ -63,7 +92,7 @@ h6 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .custom13 h1 {
-    font-size: 42.18px; }
+    font-size: 43.29px; }
 
   .custom13 h2 {
     font-size: 31.08px; }
@@ -72,10 +101,10 @@ h6 {
     font-size: 24.42px; }
 
   .custom13 h4 {
-    font-size: 19.152px; } }
+    font-size: 20.216px; } }
 @media (min-width: 992px) {
   .custom13 h1 {
-    font-size: 47.5px; }
+    font-size: 48.75px; }
 
   .custom13 h2 {
     font-size: 35px; }
@@ -84,5 +113,8 @@ h6 {
     font-size: 27.5px; }
 
   .custom13 h4 {
-    font-size: 20.448px; } }
+    font-size: 21.584px; }
+
+  .custom13 h5 {
+    font-size: 17px; } }
 /* end custom 1.3 */

@@ -1,79 +1,138 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: 400;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-ultrabold {
+    font-weight: 900;
+}
+
+
+/* ---- */
+
+.device-label {
+    margin-top: 30px;
+    border-bottom: 1px solid #ccd;
+}
+
+
 /* current scale */
 
 h1 {
     font-size: 48px;
     letter-spacing: -1px;
 }
+
 h2 {
     font-size: 28px;
     /* or is this 34 px */
 }
+
 .option2 h2 {
     font-size: 34px;
 }
+
 h3 {
     font-size: 24px;
 }
+
 h4 {
     font-size: 20px;
 }
+
 h5 {
     font-size: 16px;
 }
+
 h6 {
     font-size: 14px;
 }
+
 
 /* perfect-fourth*/
 
 .perfect-fourth h1 {
     font-size: 3.157em;
 }
+
 .perfect-fourth h2 {
     font-size: 2.369em;
 }
+
 .perfect-fourth h3 {
     font-size: 1.777em;
 }
+
 .perfect-fourth h4 {
     font-size: 1.333em;
 }
+
 .perfect-fourth h5 {
     font-size: 1em;
 }
+
 .perfect-fourth h6 {
     font-size: .85em
 }
+
 
 /* end perfect fourth*/
 
 
 /* custom 1.3 */
 
-$custom_font_h1: 38px; // 2.945 / 47
+$custom_font_h1: 39px; // 2.945 / 49
 $custom_font_h2: 28px; // 2.248 / 35
-$custom_font_h3: 22px; // 1.716 / 27
-$custom_font_h4: 18px; // 1.31 (max 88%, not 80% scale) / 21
+$custom_font_h3: 22px; // 1.716 / 28
+$custom_font_h4: 19px; // 1.31 (max 88%, not 80% scale) / 22
 $custom_font_h5: 16px; // 1 / 16
 $custom_font_h6: 14px; // .769 / 1
 .custom13 h1 {
     font-size: $custom_font_h1;
 }
+
 .custom13 h2 {
     font-size: $custom_font_h2;
 }
+
 .custom13 h3 {
     font-size: $custom_font_h3;
 }
+
 .custom13 h4 {
     font-size: $custom_font_h4;
 }
+
 .custom13 h5 {
     font-size: $custom_font_h5;
 }
+
 .custom13 h6 {
     font-size: $custom_font_h6;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .custom13 h1 {
         font-size: #{1.11 * $custom_font_h1};
@@ -88,6 +147,7 @@ $custom_font_h6: 14px; // .769 / 1
         font-size: #{1.064 * $custom_font_h4};
     }
 }
+
 @media (min-width: 992px) {
     .custom13 h1 {
         font-size: #{1.25 * $custom_font_h1};
@@ -101,6 +161,10 @@ $custom_font_h6: 14px; // .769 / 1
     .custom13 h4 {
         font-size: #{1.136 * $custom_font_h4};
     }
+    .custom13 h5 {
+        font-size: #{1.0625 * $custom_font_h5};
+    }
 }
+
 
 /* end custom 1.3 */
